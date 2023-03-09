@@ -9,5 +9,13 @@
   </div>
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
+  <h4> </h4>
+  <h4>Your order:</h4>
 
+  <% @line_items.each do |item| %>
+    <%= render 'item', line_item: item %>
+  <% end %>
+
+  <h4>Total</h4>
+<%= humanized_money_with_symbol @order.total_cents / 100 %>
 </section>
