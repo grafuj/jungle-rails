@@ -1,6 +1,7 @@
 class CartsController < ApplicationController
 
-  before_action :authorize
+  # before_action :authorize
+  # we don't actually need to be logged in for adding an item to cart, only for viewing admin pages
 
   def show
   end
