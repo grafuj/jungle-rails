@@ -32,3 +32,6 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots
 
+![Homepage](https://github.com/grafuj/jungle-rails/blob/master/docs/homepage.PNG)
+
+![Browse_Products](https://github.com/grafuj/jungle-rails/blob/master/docs/browse-products.PNG?raw=true)
